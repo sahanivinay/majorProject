@@ -41,7 +41,7 @@ def predict_activity(real_time_data):
 def get_real_time_data():
     try:
         # Define the COM port and baud rate
-        com_port = 'COM3'
+        com_port = 'dev/ttyUSB0'
         baud_rate = 9600
 
         # Open the serial port
